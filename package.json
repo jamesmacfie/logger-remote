@@ -1,0 +1,17 @@
+{
+	"name": "logger-remote",
+	"version": "0.0.0",
+	"description": "A dummy remote receiver for the Logger project",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"ddp": "~0.9.1",
+		"serialport":
+		"q": "~1.0.1",
+		"underscore": "~1.5.2"
+	},
+	"author": "James Macfie <james@macfie.co.nz> (http://jamesmacfie.com/)",
+	"license": "ISC"
+}
