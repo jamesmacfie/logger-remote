@@ -28,7 +28,7 @@
 					console.log('calling with ' + data.trim());
 
 					// Call the `insertData` method on the Meteor app. We aren't dealing with any failures etc here
-					ddpClient.call('insertData', [{
+					ddpClient.call('insertDataPoint', [{
 							temp: data.trim()
 					}], function() {}, function() {});
 			});
